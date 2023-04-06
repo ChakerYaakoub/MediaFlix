@@ -1,0 +1,25 @@
+.LikeThis {
+
+    padding: 3% 0%;
+
+
+
+}
+/* --padding-title-section
+--font-weight-bold */
+.LikeThis .TitleP{
+ 
+   
+    padding-top: 10px;
+
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+.SimilaireFilm:hover p {
+    display: block !important;
+  }

@@ -1,0 +1,40 @@
+.signUpTitle {
+  margin-top: calc(var(--margin-primary) / 2);
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold) !important;
+}
+.signUpBtn {
+  background-color: var(--color-primary);
+  border: none;
+  outline: none;
+  padding: var(--padding-secondary);
+  padding: calc(var(--padding-secondary) / 1.3);
+  border-radius: var(--border-radius-inp-reg);
+  color: var(--color-light);
+  font-weight: var(--font-weight-bold);
+  background-color: var(--color-darkest);
+  background-color: var(--color-primary);
+  transition: all 0.5s;
+}
+.signUpBtn:hover {
+  background-color: var(--color-darkest);
+}
+/* .confInpSignUp {
+  margin-bottom: calc(var(--margin-primary) / 1.5);
+} */
+.SignUpfooter {
+  margin-top: var(--margin-secondary);
+  font-size: 15px;
+  text-align: right;
+}
+.back-to-login-btn {
+  font-size: 14px;
+  transition: all 0.3s;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: var(--color-light);
+}
+.back-to-login-btn:hover {
+  color: var(--color-primary);
+}

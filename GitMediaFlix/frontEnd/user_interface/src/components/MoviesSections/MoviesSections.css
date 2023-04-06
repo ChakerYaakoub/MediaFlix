@@ -1,0 +1,18 @@
+.movies-series-list {
+  display: flex;
+}
+.kXteup {
+  background-color: var(--color-light) !important;
+  color: var(--color-primary) !important;
+}
+.kXteup:hover {
+  background-color: var(--color-primary) !important;
+  color: var(--color-light) !important;
+}
+.cVXxbE {
+  background-color: var(--color-light) !important;
+  box-shadow: 0 0 1px 3px var(--color-primary) !important;
+}
+.Slxdj {
+  background-color: var(--color-light) !important;
+}

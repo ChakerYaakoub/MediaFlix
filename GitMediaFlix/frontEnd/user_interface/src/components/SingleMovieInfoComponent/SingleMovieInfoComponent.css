@@ -1,0 +1,314 @@
+.containerMovieInfoImg {
+  display: flex;
+  position: relative;
+  overflow: hidden;
+  height: 700px;
+  border-radius: calc(var(--border-radius-primary) / 1.3);
+}
+.addToWatchList {
+  color: red;
+}
+.movieImg {
+  width: 35%;
+  height: 100%;
+  border-top-left-radius: calc(var(--border-radius-primary) / 1.3);
+  border-bottom-left-radius: calc(var(--border-radius-primary) / 1.3);
+}
+.movieInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+  padding: calc(var(--padding-primary));
+  z-index: 3;
+}
+.movieInfo .movieIdTitle {
+  font-size: 35px;
+  color: var(--color-light);
+  font-weight: var(--font-weight-bold);
+}
+.movieIdCategoryDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  margin: var(--more-than-small-margin) 0;
+}
+.movieIdCategoy {
+  max-width: 400px;
+}
+.movieIdCategoryDate .movieIdCategoy {
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  padding: var(--small-padding);
+}
+.ratingMovieId {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 29%;
+}
+.heartAddToWatchList {
+  margin-bottom: var(--more-than-small-margin);
+  font-size: 40px;
+  cursor: pointer;
+}
+.movirIdViews,
+.ratingMovieId {
+  margin-bottom: var(--more-than-small-margin);
+}
+.movieIdCategoryDate,
+.ratingMovieId,
+.movirIdViews {
+  font-size: 19px;
+}
+.movieIdDescription {
+  text-align: justify;
+  max-line-height: 1.5;
+  word-wrap: break-word;
+  max-height: 150px;
+  overflow-x: hidden;
+}
+
+.movieIdDescription::-webkit-scrollbar-thumb {
+  background-color: var(--color-primary); /* color of the scroll thumb */
+  border-radius: 20px; /* roundness of the scroll thumb */
+  /* border: 1px solid var(--color-primary); creates padding around scroll thumb */
+  visibility: hidden;
+}
+.movieIdDescription:hover::-webkit-scrollbar-thumb {
+  visibility: visible;
+}
+.movieIdDescription::-webkit-scrollbar {
+  width: 3px;
+  height: 4px;
+}
+.movieIdDescription {
+  scrollbar-width: thin; /* "auto" or "thin" */
+  scrollbar-color: var(--color-primary) var(--color-primary); /* scroll thumb and track */
+  padding-right: 15px; /* adjust the value as needed */
+}
+.movieImgBackground {
+  position: absolute;
+  top: 0;
+  opacity: 0.1;
+  margin-top: -100px;
+  width: 100%;
+  height: 200%;
+}
+@media (min-width: 1280px) and (max-width: 1520px) {
+  .containerMovieInfoImg {
+    height: 600px;
+  }
+  .movieInfo .movieIdTitle {
+    font-size: 38px;
+  }
+  .ratingMovieId {
+    width: 33%;
+  }
+  .movieIdDescription {
+    font-size: 15px;
+  }
+  .movieIdCategoryDate,
+  .ratingMovieId,
+  .movirIdViews {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1022px) and (max-width: 1280px) {
+  .containerMovieInfoImg {
+    height: 600px;
+  }
+  .movieIdTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .movieInfo {
+    font-size: 18px;
+  }
+  .movieIdCategoryDate {
+    width: 39%;
+  }
+  .ratingMovieId {
+    width: 45%;
+  }
+  .movieIdDescription {
+    font-size: 13px;
+  }
+  .movieIdCategoryDate,
+  .ratingMovieId,
+  .movirIdViews {
+    font-size: 17px;
+  }
+  .movirIdViews,
+  .ratingMovieId {
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+  .containerMovieInfoImg {
+    flex-direction: column;
+    align-items: center;
+    height: 850px;
+    padding: calc(var(--padding-primary));
+  }
+  .movieImg {
+    width: 50%;
+    height: 40%;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+  }
+  .movieInfo {
+    width: 100%;
+    padding: calc(var(--padding-primary) / 2);
+  }
+  .movieIdTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .movieInfo {
+    font-size: 17px;
+  }
+  .movieIdCategoryDate {
+    width: 30%;
+    margin: var(--more-than-small-margin) 0 15px;
+    font-size: 15px;
+  }
+  .heartAddToWatchList {
+    margin-bottom: 0px;
+    font-size: 26px;
+  }
+  .ratingMovieId {
+    width: 45%;
+    margin: 15px 0 0;
+  }
+  .movieIdDescription {
+    font-size: 14px;
+  }
+
+  .movirIdViews {
+    margin-bottom: 15px;
+  }
+  .ratingMovieId,
+  .movirIdViews {
+    font-size: 15px;
+  }
+  .ratingMovieId {
+    /* margin-top: 10px; */
+  }
+  .movieImgBackground {
+    opacity: 0.06;
+  }
+}
+@media (min-width: 640px) and (max-width: 768px) {
+  .containerMovieInfoImg {
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+    padding: calc(var(--padding-primary));
+  }
+  .movieImg {
+    width: 50%;
+    height: 35%;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+  }
+  .movieInfo {
+    width: 100%;
+    padding: calc(var(--padding-primary) / 2);
+    font-size: 16px;
+  }
+  .movieIdTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .movieIdCategoryDate {
+    width: 38%;
+    margin: var(--more-than-small-margin) 0 15px;
+    font-size: 15px;
+  }
+  .heartAddToWatchList {
+    margin-bottom: 0px;
+    font-size: 26px;
+  }
+  .ratingMovieId {
+    width: 54%;
+    font-size: 17px !important;
+    margin: 15px 0 0;
+  }
+  .movieIdDescription {
+    font-size: 14px;
+  }
+  .movieIdCategoryDate {
+    font-size: 15px;
+    margin: var(--more-than-small-margin) 0 15px;
+  }
+  .movirIdViews {
+    margin-bottom: 15px;
+  }
+  .ratingMovieId,
+  .movirIdViews {
+    font-size: 15px;
+  }
+  .ratingMovieId {
+    /* margin-top: 10px; */
+  }
+  .movieImgBackground {
+    opacity: 0.06;
+  }
+}
+@media (max-width: 640px) {
+  .containerMovieInfoImg {
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    padding: calc(var(--padding-primary) / 2.5);
+  }
+  .movieImg {
+    width: 55%;
+    height: 30%;
+    border-radius: 50%;
+    border: 1px solid var(--color-light);
+  }
+  .movieInfo {
+    width: 100%;
+    padding: calc(var(--padding-primary) / 2);
+  }
+  .movieInfo .movieIdTitle {
+    font-size: 20px;
+    text-align: center;
+  }
+  .movieInfo {
+    font-size: 16px;
+  }
+  .movieIdCategoryDate {
+    width: 50%;
+  }
+  .heartAddToWatchList {
+    margin-bottom: 0px;
+    font-size: 26px;
+  }
+  .ratingMovieId {
+    width: 80%;
+    font-size: 17px !important;
+  }
+  .movieIdDescription {
+    font-size: 14px;
+  }
+  .movieIdCategoryDate {
+    font-size: 15px;
+    margin: var(--more-than-small-margin) 0 15px;
+  }
+  .ratingMovieId,
+  .movirIdViews {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .ratingMovieId {
+    /* margin-top: 10px; */
+  }
+  .movieImgBackground {
+    opacity: 0.06;
+  }
+}

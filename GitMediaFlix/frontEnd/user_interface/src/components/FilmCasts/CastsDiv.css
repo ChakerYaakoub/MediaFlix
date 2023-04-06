@@ -1,0 +1,34 @@
+
+
+/* 
+#ThePDIv{
+    height : "350px" !important ;
+    padding : '5px';
+     position: 'relative' ;
+
+}
+
+#ThePDIv #ImageActor{
+    height: "300px" !important ;
+
+}  */
+
+.ThePDIv:hover p {
+    display: block !important;
+  }
+  /* .ThePDIv .titleCasts {
+    font-size: 1rem !important;
+     position: "absolute"!important;
+      bottom: "5px"!important;
+     left: "5px" !important;
+      color: "#ffffff" !important; 
+     background-color: "rgba(0, 0, 0, 0.5)" !important;
+      padding: "5px" !important; 
+      border-radius: "5px"!important;
+      display: "none" !important ;
+       height:"2rem" !important;
+
+  
+  } */
+
+  /* style={{ fontSize: "1rem", position: "absolute", bottom: "5px", left: "5px", color: "#ffffff", backgroundColor: "rgba(0, 0, 0, 0.5)", padding: "5px", borderRadius: "5px", display: "none" , height:"0.5rem"}} */

@@ -1,0 +1,14 @@
+.closing-login-signup-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: calc(var(--padding-primary) / 2);
+  font-size: 20px;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  transition: all 0.3s;
+}
+.closing-login-signup-btn:hover {
+  color: var(--color-darkest);
+}

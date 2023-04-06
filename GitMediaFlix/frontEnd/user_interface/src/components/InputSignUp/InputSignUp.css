@@ -1,0 +1,37 @@
+.signUpInp {
+  background-color: var(--color-light);
+  border: none;
+  outline: none;
+  width: 250px;
+  border-radius: var(--border-radius-inp-reg);
+  padding: calc(var(--padding-secondary) / 1.5);
+  /* margin-bottom: calc(var(--margin-primary) / 2.5); */
+  font-size: 13px;
+}
+.signUpInp::placeholder {
+  font-size: 13px;
+}
+.errorMessage {
+  font-size: 11px;
+  padding: 3px;
+  color: var(--color-primary);
+
+  width: 250px;
+  display: none;
+}
+.cont-Inp-errMsg {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: calc(var(--margin-primary) / 2.5);
+}
+.signUpInp:invalid[focused="true"] ~ span {
+  display: block;
+}
+.signUpInp:invalid[focused="true"] {
+  border-bottom: 1px solid red;
+}
+.errorMessageUsedEmail {
+  font-size: 13px;
+  padding: 3px;
+  color: var(--color-primary);
+}

@@ -1,0 +1,20 @@
+ul li {
+  transition: all 0.4s;
+}
+ul li a:hover {
+  cursor: pointer;
+  color: var(--color-primary);
+}
+@media (max-width: 700px) {
+  ul li {
+    margin-bottom: calc(var(--margin-primary) / 8);
+    display: flex;
+  }
+  .icon {
+    color: var(--color-light);
+    display: inline-block;
+    width: var(--icon-width);
+    font-size: 16px;
+    margin-top: -2px;
+  }
+}

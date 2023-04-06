@@ -1,0 +1,59 @@
+.maidPaitiInfo{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 3px;
+  word-break:break-word;
+  width: 90%;
+  margin-left: 4.5%;
+}
+.profilefirstinfo{
+display: flex;
+/* width: 90%; */
+height: auto;
+flex-wrap: wrap;
+justify-content: center;
+/* border: 1px solid black; */
+/* background-color: aqua; */
+/* margin-left: 4.5%; */
+word-break:break-word;
+}
+.nameandpro{
+display: flex;
+width: 78%;
+text-align: center;
+justify-content: center;
+word-break:break-word;
+/* background-color: brown; */
+flex-wrap: wrap;
+
+}
+.imgprops{
+right: 100px;
+display: flex;
+/* flex-wrap: wrap; */
+width: 22%;
+/* position: absolute ; */
+}
+.textPrainfo{
+display: flex;
+height: auto;
+flex-wrap: wrap;
+margin-top: 10px;
+
+
+font-weight: 300;
+word-break:break-word;
+
+font-weight: 300;
+word-break:break-word;
+text-align: justify;
+max-line-height:1.5;
+word-wrap: break-word;
+
+}
+@media (max-width : 1100px){
+  .nameandpro{width: 100%;}
+  .imgprops{width: 47%;left:20px;}
+  /* .profilefirstinfo{flex-direction: ;} */
+}

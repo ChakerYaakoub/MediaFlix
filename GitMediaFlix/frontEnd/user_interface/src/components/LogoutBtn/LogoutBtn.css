@@ -1,0 +1,18 @@
+.logout-btn {
+  background-color: var(--color-primary);
+  padding: calc(var(--padding-primary) / 6);
+  border: none;
+  color: var(--color-light);
+  border-radius: calc(var(--border-radius-primary) / 2);
+  transition: all 0.6s;
+}
+.logout-btn:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+.userName {
+  color: white;
+}
+.userName:hover {
+  color: var(--color-primary);
+}

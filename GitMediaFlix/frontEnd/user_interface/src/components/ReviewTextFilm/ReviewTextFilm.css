@@ -1,0 +1,25 @@
+.ratingText {
+
+    padding: 3% 0%;
+
+
+
+}
+/* --padding-title-section
+--font-weight-bold */
+.ratingText p{
+    padding-top: 10px;
+
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

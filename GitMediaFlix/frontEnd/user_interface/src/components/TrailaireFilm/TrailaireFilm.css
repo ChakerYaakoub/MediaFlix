@@ -1,0 +1,44 @@
+.trailaireDiv {
+
+    padding: 3% 0%;
+
+
+
+}
+/* --padding-title-section
+--font-weight-bold */
+.trailaireDiv p{
+    padding-top: 10px;
+
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+
+
+
+}
+.trailerFilm iframe {
+    width: 70%;
+    margin: auto;
+    /* max-height: 20rem; */
+    border-radius: calc(var(--border-radius-primary) / 1.3);
+}
+
+@media (max-width: 640px) {
+    .trailerFilm iframe {
+        max-height: 10rem;
+
+    }
+    .trailaireDiv p {
+        font-size: 20px;
+        text-align: center;
+      }
+}
+
+@media (max-width: 768px) {
+    .trailerFilm iframe {
+        max-height: 9rem;
+
+    }
+  
+}

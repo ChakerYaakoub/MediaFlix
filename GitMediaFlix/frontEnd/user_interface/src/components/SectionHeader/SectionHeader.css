@@ -1,0 +1,5 @@
+.section-header h4 {
+  font-size: 33px;
+  font-weight: var(--font-weight-bold);
+  padding-left: var(--padding-title-section);
+}

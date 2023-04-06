@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 40px auto;
+  padding: 20px;
+ 
+}
+
+/* blog previews / list */
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.blog-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.blog-preview h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+/* .blog-preview a{
+  text-decoration: none;
+} */
+
+/* blog details page */
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+
+/* create new blog form */
+.create {
+  max-width: 99%;
+  margin: 0 auto;
+  text-align: center;
+  justify-items: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background-color: #03C9D7;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 2px;
+  cursor: pointer;
+  width: 200px;
+}
+
+
+.blog-details h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 10px;
+}
+.blog-details div {
+  margin: 20px 0;
+}
+.blog-details button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* create new blog form */
+.create {
+  max-width: 98%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #080506;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create input[type=file]::file-selector-button {
+  margin-right: 20px;
+  border: none;
+  background: #03C9D7;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  transition: background .2s ease-in-out;
+}
+
+input[type=file]::file-selector-button:hover {
+  background: #0d45a5;
+}
+
+/* .closeBtn {
+  position: fixed;
+  top: 200px;
+  right: 40px;
+  color:rebeccapurple
+} */
+
+.closeBtn {
+  position: absolute;
+  top: 350px;
+  right: 150px;
+  font-weight: 700;
+  cursor: pointer;
+  color:darkred,
+  
+  
+}
+
+.goserach{
+  margin: 20px;
+  width: 82%;
+}
+
+.dataFun{
+  width: 44%;
+  margin-left: 9px;
+  margin-top: -2px;
+}
+
+.modalRight{
+  display: flex;
+  
+}
+
+
+
+
+
+

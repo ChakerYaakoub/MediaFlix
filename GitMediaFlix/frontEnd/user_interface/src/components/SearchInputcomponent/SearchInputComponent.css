@@ -1,0 +1,13 @@
+.search-div {
+  background-color: var(--color-light);
+  width: 70%;
+  display: flex;
+  padding: calc(var(--padding-primary) / 4);
+  border-radius: var(--border-radius-primary);
+}
+.search-inp {
+  border: none;
+  outline: none;
+  width: 100%;
+  color: black;
+}

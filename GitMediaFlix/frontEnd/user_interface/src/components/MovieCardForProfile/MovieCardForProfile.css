@@ -1,0 +1,107 @@
+.MovieRecommended {
+  flex: 1;
+}
+
+.MovieCard-wrapper {
+  background-color: var(--color-dark);
+  border-radius: calc(var(--border-radius-primary) / 2);
+  padding: calc(var(--padding-primary) / 2);
+  margin: calc(var(--margin-primary) / 5);
+  /* width: 300px; */
+}
+.movie-recommended-img {
+  cursor: pointer;
+  width: 100%;
+  height: 350px;
+  border-radius: calc(var(--border-radius-primary) / 4);
+  /* margin-bottom: calc(var(--margin-primary) / 2); */
+}
+.MovieCard-wrapper {
+  position: relative;
+}
+.heart-icon {
+  position: absolute;
+  top: 87%;
+  right: 13%;
+  color: var(--color-light);
+  cursor: pointer;
+  font-size: 18px;
+}
+.addToWatchList {
+  color: var(--color-primary);
+}
+
+.hideTitleRateMovie {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 12px;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  right: 15%;
+  color: var(--color-primary);
+  /* color: var(--color-light); */
+  font-family: var(--font-weight-bold);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: calc(var(--padding-primary) / 5);
+  border-radius: calc(var(--border-radius-primary) / 2);
+
+  /* width: 100%; */
+}
+.rateMovie {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+  color: var(--color-primary);
+  font-weight: var(--font-weight-bold);
+}
+.hidden {
+  display: none;
+}
+@media (min-width: 1400px) and (max-width: 1520px) {
+  .heart-icon {
+    top: 83%;
+    right: 13%;
+  }
+  .movie-recommended-img {
+    height: 250px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1400px) {
+  .movie-recommended-img {
+    height: 250px;
+  }
+  .heart-icon {
+    top: 83%;
+    right: 13%;
+  }
+  .hideTitleRateMovie {
+    top: 58%;
+    font-size: 10px;
+  }
+  .rateMovie {
+    width: 80%;
+  }
+}
+
+@media (max-width: 760px) {
+  .movie-recommended-img {
+    height: 400px;
+  }
+  .hideTitleRateMovie {
+    padding: calc(var(--padding-primary) / 7);
+    font-size: 10px;
+  }
+  .rateMovie {
+    width: 60%;
+    font-size: 10px;
+  }
+  .heart-icon {
+    position: absolute;
+    top: 88%;
+    right: 10%;
+    font-size: 19px;
+  }
+}

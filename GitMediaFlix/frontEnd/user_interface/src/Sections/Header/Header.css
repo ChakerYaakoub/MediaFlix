@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding-left: 0;
+  margin: 0;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: calc(var(--padding-primary) / 2);
+  color: white;
+  width: 100%;
+  border-bottom: 1px solid var(--color-primary);
+}
+.left-side-navbar {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50px;
+}
+.website-name {
+  width: 20%;
+  font-size: 25px;
+  margin: 0;
+}
+.website-name span {
+  color: var(--color-primary);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 40%;
+  margin: 0;
+}
+
+.right-side-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+}
+
+.phone-navbar {
+  display: none;
+}
+a {
+  color: var(--color-light);
+}
+@media (min-width: 700px) and (max-width: 1150px) {
+  .website-name {
+    width: 30%;
+  }
+  ul {
+    width: 50%;
+  }
+  .left-side-navbar {
+    width: 70% !important;
+  }
+}
+
+@media (max-width: 700px) {
+  .desktop-navbar {
+    display: none;
+  }
+  .phone-navbar {
+    display: block;
+  }
+  .website-name {
+    width: 20%;
+    font-size: 25px;
+    margin: 0;
+  }
+  .website-name span {
+    color: var(--color-primary);
+  }
+  .open-nav-btn,
+  .close-nav-btn {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    color: var(--color-light);
+    font-size: 25px;
+    transition: all 0.3s;
+  }
+  .open-nav-btn:hover,
+  .close-nav-btn:hover {
+    color: var(--color-primary);
+  }
+  .close-nav-btn {
+    display: none;
+  }
+  .hidden-shown-nav {
+    position: absolute;
+    top: 90.4px;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    width: 35%;
+    padding: calc(var(--padding-primary) / 1.5);
+    background-color: var(--color-primary);
+    border-bottom-left-radius: calc(var(--border-radius-primary) / 1.5);
+    transform: translate(100%);
+    transition: all 0.3s;
+  }
+  .navLinks {
+    color: var(--color-light);
+    display: inline-block;
+    width: 70px;
+  }
+  ul {
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-left: 0;
+  }
+
+  ul li a:hover {
+    color: var(--color-darkest);
+  }
+
+  .addRemoveNav {
+    transform: translateX(0);
+  }
+  .disactiveShowBtn {
+    display: none;
+  }
+  .ActiveHideBtn {
+    display: block;
+  }
+}

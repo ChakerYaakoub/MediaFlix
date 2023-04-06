@@ -1,0 +1,30 @@
+.watchList-items {
+  display: flex;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  /* justify-content: center; */
+  justify-content: flex-start !important;
+  align-items: flex-start;
+  flex: 0 0 !important;
+  padding: var(--padding-primary);
+}
+.myInfo {
+  padding: 10px var(--padding-title-section);
+  background-color: var(--color-darkest);
+  /* border-radius: var(--border-radius-primary); */
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 20px;
+  /* color: var(--color-dark); */
+}
+.myInfo div {
+  margin-bottom: var(--small-margin);
+  /* font-size: 12px; */
+  font-weight: 300;
+}
+.titleInfo {
+  /* font-size: 20px !important; */
+}
